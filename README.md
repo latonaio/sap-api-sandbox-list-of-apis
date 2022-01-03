@@ -15,6 +15,24 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 
 ## Central Functions ##
 
+### Classification ###
+
+* A_ClfnClassForKeyDate / [class.go](https://github.com/latonaio/sap-api-integrations-classification-reads/blob/main/SAP_API_Caller/responses/class.go)
+* ToClassDescription / [to_class_description.go](https://github.com/latonaio/sap-api-integrations-classification-reads/blob/main/SAP_API_Caller/responses/to_class_description.go)
+* ToCharc / [to_charc.go](https://github.com/latonaio/sap-api-integrations-classification-reads/blob/main/SAP_API_Caller/responses/to_charc.go)
+
+### Characteristic ###
+
+* A_ClfnCharacteristicForKeyDate / [characteristic.go](https://github.com/latonaio/sap-api-integrations-characteristic-reads/blob/main/SAP_API_Caller/responses/characteristic.go)
+* A_ClfnCharcDescForKeyDate / [charc_description.go](https://github.com/latonaio/sap-api-integrations-characteristic-reads/blob/main/SAP_API_Caller/responses/charc_description.go)
+* ToCharcDescription / [to_charc_description.go](https://github.com/latonaio/sap-api-integrations-characteristic-reads/blob/main/SAP_API_Caller/responses/to_charc_description.go)
+* ToValue / [to_value.go](https://github.com/latonaio/sap-api-integrations-characteristic-reads/blob/main/SAP_API_Caller/responses/to_value.go)
+* ToValueDescription / [to_value_description.go](https://github.com/latonaio/sap-api-integrations-characteristic-reads/blob/main/SAP_API_Caller/responses/to_value_description.go)
+
+### Bank Master ###
+
+* Bank / [bank.go](https://github.com/latonaio/sap-api-integrations-bank-master-reads/blob/main/SAP_API_Caller/responses/bank.go)
+
 ### Business Partner ###
 
 * A_BusinessPartner / [general.go](https://github.com/latonaio/sap-api-integrations-business-partner-reads/blob/main/SAP_API_Caller/responses/general.go)
@@ -26,6 +44,12 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToBank / [to_bank.go](https://github.com/latonaio/sap-api-integrations-business-partner-reads/blob/main/SAP_API_Caller/responses/to_bank.go)
 
 ## Logistics ##
+
+### Product Group ###
+
+* A_ProductGroup / [product_group.go](https://github.com/latonaio/sap-api-integrations-product-group-reads/blob/main/SAP_API_Caller/responses/product_group.go)
+* A_ProductGroupText / [product_group_text.go](https://github.com/latonaio/sap-api-integrations-product-group-reads/blob/main/SAP_API_Caller/responses/product_group_text.go)
+* ToProductGroupText / [to_product_group_text.go](https://github.com/latonaio/sap-api-integrations-product-group-reads/blob/main/SAP_API_Caller/responses/to_product_group_text.go)
 
 ### Product Master ###
 
@@ -39,7 +63,15 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * A_ProductValuationAccount / [accounting.go](https://github.com/latonaio/sap-api-integrations-product-master-reads/blob/main/SAP_API_Caller/responses/accounting.go)
 * A_ProductDescription / [product_desc.go](https://github.com/latonaio/sap-api-integrations-product-master-reads/blob/main/SAP_API_Caller/responses/product_desc.go)
 
+### Product Master Class ###
+
+* A_ClfnProduct / [general.go](https://github.com/latonaio/sap-api-integrations-product-master-class-reads/blob/main/SAP_API_Caller/responses/general.go)
+* ToProductClass / [to_product_class.go](https://github.com/latonaio/sap-api-integrations-product-master-class-reads/blob/main/SAP_API_Caller/responses/to_product_class.go)
+* ToClassDetails / [to_class_details.go](https://github.com/latonaio/sap-api-integrations-product-master-class-reads/blob/main/SAP_API_Caller/responses/to_class_details.go)
+* ToProductCharc / [to_product_charc.go](https://github.com/latonaio/sap-api-integrations-product-master-class-reads/blob/main/SAP_API_Caller/responses/to_product_charc.go)
+
 ### Batch Master Record ###
+
 * Batch / [batch.go](https://github.com/latonaio/sap-api-integrations-batch-master-record-reads/blob/main/SAP_API_Caller/responses/batch.go)
 
 ## Inventory Management ##
@@ -55,6 +87,7 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * A_ReservationDocumentItem / [item.go](https://github.com/latonaio/sap-api-integrations-reservation-document-reads/blob/main/SAP_API_Caller/responses/item.go)
 
 ### Inbound Delivery ###
+
 * A_InbDeliveryHeader / [header.go](https://github.com/latonaio/sap-api-integrations-inbound-delivery-reads/blob/main/SAP_API_Caller/responses/header.go)
 * ToPartner / [to_partner.go](https://github.com/latonaio/sap-api-integrations-inbound-delivery-reads/blob/main/SAP_API_Caller/responses/to_partner.go)
 * ToAddress / [to_address.go](https://github.com/latonaio/sap-api-integrations-inbound-delivery-reads/blob/main/SAP_API_Caller/responses/to_address.go)
@@ -65,6 +98,12 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * A_MaterialDocumentHeader / [header.go](https://github.com/latonaio/sap-api-integrations-material-document-reads/blob/main/SAP_API_Caller/responses/header.go)
 * A_MaterialDocumentHeaderItem / [item.go](https://github.com/latonaio/sap-api-integrations-material-document-reads/blob/main/SAP_API_Caller/responses/item.go)
 * ToItem / [to_item.go](https://github.com/latonaio/sap-api-integrations-material-document-reads/blob/main/SAP_API_Caller/responses/to_item.go)
+
+### Physical Inventory Document ###
+
+* A_PhysInventoryDocHeader / [header.go](https://github.com/latonaio/sap-api-integrations-physical-inventory-document-reads/blob/main/SAP_API_Caller/responses/header.go)
+* A_PhysInventoryDocItem / [item.go](https://github.com/latonaio/sap-api-integrations-physical-inventory-document-reads/blob/main/SAP_API_Caller/responses/item.go)
+* ToItem / [to_item.go](https://github.com/latonaio/sap-api-integrations-physical-inventory-document-reads/blob/main/SAP_API_Caller/responses/to_item.go)
 
 ## Sales Management ##
 
@@ -85,12 +124,23 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToPartnerFunction / [to_partner_function.go](https://github.com/latonaio/sap-api-integrations-business-partner-reads-customer/blob/main/SAP_API_Caller/responses/to_partner_function.go)
 * ToCompany / [to_company.go](https://github.com/latonaio/sap-api-integrations-business-partner-reads-customer/blob/main/SAP_API_Caller/responses/to_company.go)
 
+### Credit Management Master ###
+
+* CreditMgmtBusinessPartner / [business_partner.go](https://github.com/latonaio/sap-api-integrations-credit-management-master-reads/blob/main/SAP_API_Caller/responses/business_partner.go)
+* CreditManagementAccount / [credit_account.go](https://github.com/latonaio/sap-api-integrations-credit-management-master-reads/blob/main/SAP_API_Caller/responses/credit_account.go)
+* ToCreditAccount / [to_credit_account.go](https://github.com/latonaio/sap-api-integrations-credit-management-master-reads/blob/main/SAP_API_Caller/responses/to_credit_account.go)
+
+### Customer Material ###
+
+* A_CustomerMaterial / [customer_material.go](https://github.com/latonaio/sap-api-integrations-customer-material-reads/blob/main/SAP_API_Caller/responses/customer_material.go)
+
 ### Sales Pricing ###
 
 * A_SlsPrcgCndnRecdValidity / [pricing_condition_validity.go](https://github.com/latonaio/sap-api-integrations-sales-pricing-reads/blob/main/SAP_API_Caller/responses/pricing_condition_validity.go)
 * ToConditionRecord / [to_condition_record.go](https://github.com/latonaio/sap-api-integrations-sales-pricing-reads/blob/main/SAP_API_Caller/responses/to_condition_record.go)
 
 ### Sales Inquiry ###
+
 * A_SalesInquiry / [header.go](https://github.com/latonaio/sap-api-integrations-sales-inquiry-reads/blob/main/SAP_API_Caller/responses/header.go)
 * A_SalesInquiryItem / [item.go](https://github.com/latonaio/sap-api-integrations-sales-inquiry-reads/blob/main/SAP_API_Caller/responses/item.go)
 * ToHeaderPartner / [to_header_partner.go](https://github.com/latonaio/sap-api-integrations-sales-inquiry-reads/blob/main/SAP_API_Caller/responses/to_header_partner.go)
@@ -98,6 +148,7 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToItemPricingElement / [to_item_pricing_element.go](https://github.com/latonaio/sap-api-integrations-sales-inquiry-reads/blob/main/SAP_API_Caller/responses/to_item_pricing_element.go)
 
 ### Sales Quotation ###
+
 * A_SalesQuotation / [header.go](https://github.com/latonaio/sap-api-integrations-sales-quotation-reads/blob/main/SAP_API_Caller/responses/header.go)
 * A_SalesQuotationItem / [item.go](https://github.com/latonaio/sap-api-integrations-sales-quotation-reads/blob/main/SAP_API_Caller/responses/item.go)
 * ToHeaderPartner / [to_header_partner.go](https://github.com/latonaio/sap-api-integrations-sales-quotation-reads/blob/main/SAP_API_Caller/responses/to_header_partner.go)
@@ -105,6 +156,7 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToItemPricingElement / [to_item_pricing_element.go](https://github.com/latonaio/sap-api-integrations-sales-quotation-reads/blob/main/SAP_API_Caller/responses/to_item_pricing_element.go)
 
 ### Sales Order ###
+
 * A_SalesOrder / [header.go](https://github.com/latonaio/sap-api-integrations-sales-order-reads/blob/main/SAP_API_Caller/responses/header.go)
 * A_SalesOrderItem / [item.go](https://github.com/latonaio/sap-api-integrations-sales-order-reads/blob/main/SAP_API_Caller/responses/item.go)
 * ToHeaderPartner / [to_header_partner.go](https://github.com/latonaio/sap-api-integrations-sales-order-reads/blob/main/SAP_API_Caller/responses/to_header_partner.go)
@@ -113,6 +165,7 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToItemPricingElement / [to_item_pricing_element.go](https://github.com/latonaio/sap-api-integrations-sales-order-reads/blob/main/SAP_API_Caller/responses/to_item_pricing_element.go)
 
 ### Sales Contract ###
+
 * A_SalesContract / [header.go](https://github.com/latonaio/sap-api-integrations-sales-contract-reads/blob/main/SAP_API_Caller/responses/header.go)
 * A_SalesContractItem / [item.go](https://github.com/latonaio/sap-api-integrations-sales-contract-reads/blob/main/SAP_API_Caller/responses/item.go)
 * ToHeaderPartner / [to_header_partner.go](https://github.com/latonaio/sap-api-integrations-sales-contract-reads/blob/main/SAP_API_Caller/responses/to_header_partner.go)
@@ -120,6 +173,7 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToItemPricingElement / [to_item_pricing_element.go](https://github.com/latonaio/sap-api-integrations-sales-contract-reads/blob/main/SAP_API_Caller/responses/to_item_pricing_element.go)
 
 ### Sales Scheduling Agreement ###
+
 * A_SchAgrmtHeader / [header.go](https://github.com/latonaio/sap-api-integrations-sales-scheduling-agreement-reads/blob/main/SAP_API_Caller/responses/header.go)
 * A_SchAgrmtItem / [item.go](https://github.com/latonaio/sap-api-integrations-sales-scheduling-agreement-reads/blob/main/SAP_API_Caller/responses/item.go)
 * ToHeaderPartner / [to_header_partner.go](https://github.com/latonaio/sap-api-integrations-sales-scheduling-agreement-reads/blob/main/SAP_API_Caller/responses/to_header_partner.go)
@@ -129,6 +183,7 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToItemPricingElement / [to_item_pricing_element.go](https://github.com/latonaio/sap-api-integrations-sales-scheduling-agreement-reads/blob/main/SAP_API_Caller/responses/to_item_pricing_element.go)
 
 ### Outbound Delivery ###
+
 * A_OutbDeliveryHeader / [header.go](https://github.com/latonaio/sap-api-integrations-outbound-delivery-reads/blob/main/SAP_API_Caller/responses/header.go)
 * A_OutbDeliveryHeader('{DeliveryDocument}')/to_DeliveryDocumentPartner / [header_partner.go](https://github.com/latonaio/sap-api-integrations-outbound-delivery-reads/blob/main/SAP_API_Caller/responses/header_partner.go)
 * A_OutbDeliveryPartner(PartnerFunction='{PartnerFunction}',SDDocument='{SDDocument}')/to_Address2 / [partner_address.go](https://github.com/latonaio/sap-api-integrations-outbound-delivery-reads/blob/main/SAP_API_Caller/responses/partner_address.go)
@@ -139,6 +194,7 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToItemDocumentFlow / [to_item_document_flow.go](https://github.com/latonaio/sap-api-integrations-outbound-delivery-reads/blob/main/SAP_API_Caller/responses/to_item_document_flow.go)
 
 ### Billing Document ###
+
 * A_BillingDocument / [header.go](https://github.com/latonaio/sap-api-integrations-billing-document-reads/blob/main/SAP_API_Caller/responses/header.go)
 * A_BillingDocumentItem / [item.go](https://github.com/latonaio/sap-api-integrations-billing-document-reads/blob/main/SAP_API_Caller/responses/item.go)
 * A_BillingDocument('{BillingDocument}')/to_Partner / [partner_function.go](https://github.com/latonaio/sap-api-integrations-billing-document-reads/blob/main/SAP_API_Caller/responses/partner_function.go)
@@ -163,6 +219,7 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToCompany / [to_company.go](https://github.com/latonaio/sap-api-integrations-business-partner-reads-supplier/blob/main/SAP_API_Caller/responses/to_company.go)
 
 ### Purchasing Source List ###
+
 * A_PurchasingSource / [purchasing_source_list.go](https://github.com/latonaio/sap-api-integrations-purchasing-source-list-reads/blob/main/SAP_API_Caller/responses/purchasing_source_list.go)
 
 ### Purchasing Info Record ###
@@ -173,6 +230,7 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * to_pur_info_recd_prcg_cndn_validity / [to_pur_info_recd_prcg_cndn.go](https://github.com/latonaio/sap-api-integrations-purchasing-info-record-reads/blob/main/SAP_API_Caller/responses/to_pur_info_recd_prcg_cndn.go)
 
 ### Purchasing Requisition ###
+
 * A_PurchaseRequisitionHeader / [header.go](https://github.com/latonaio/sap-api-integrations-purchase-requisition-reads/blob/main/SAP_API_Caller/responses/header.go)
 * A_PurchaseRequisitionItem / [item.go](https://github.com/latonaio/sap-api-integrations-purchase-requisition-reads/blob/main/SAP_API_Caller/responses/item.go)
 * A_PurReqAddDelivery / [item_delivery_address.go](https://github.com/latonaio/sap-api-integrations-purchase-requisition-reads/blob/main/SAP_API_Caller/responses/item_delivery_address.go)
@@ -182,6 +240,7 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToItemAccount / [to_item_account.go](https://github.com/latonaio/sap-api-integrations-purchase-requisition-reads/blob/main/SAP_API_Caller/responses/to_item_account.go)
 
 ### Purchase Order ###
+
 * A_PurchaseOrder / [header.go](https://github.com/latonaio/sap-api-integrations-purchase-order-reads/blob/main/SAP_API_Caller/responses/header.go)
 * A_PurchaseOrderItem / [item.go](https://github.com/latonaio/sap-api-integrations-purchase-order-reads/blob/main/SAP_API_Caller/responses/item.go)
 * A_PurchaseOrderScheduleLine / [item_shedule_line.go](https://github.com/latonaio/sap-api-integrations-purchase-order-reads/blob/main/SAP_API_Caller/responses/item_shedule_line.go)
@@ -193,6 +252,7 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToItemAccount / [to_item_account.go](https://github.com/latonaio/sap-api-integrations-purchase-order-reads/blob/main/SAP_API_Caller/responses/to_item_account.go)
 
 ### Purchase Contract ###
+
 * A_PurchaseContract / [header.go](https://github.com/latonaio/sap-api-integrations-purchase-contract-reads/blob/main/SAP_API_Caller/responses/header.go)
 * A_PurchaseContractItem / [item.go](https://github.com/latonaio/sap-api-integrations-purchase-contract-reads/blob/main/SAP_API_Caller/responses/item.go)
 * ToItem / [to_item.go](https://github.com/latonaio/sap-api-integrations-purchase-contract-reads/blob/main/SAP_API_Caller/responses/to_item.go)
@@ -200,6 +260,7 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToItemCondition / [to_item_condition.go](https://github.com/latonaio/sap-api-integrations-purchase-contract-reads/blob/main/SAP_API_Caller/responses/to_item_condition.go)
 
 ### Purchase Scheduling Agreement ###
+
 * A_SchAgrmtHeader / [header.go](https://github.com/latonaio/sap-api-integrations-purchase-scheduling-agreement-reads/blob/main/SAP_API_Caller/responses/header.go)
 * A_SchAgrmtItem  / [item.go](https://github.com/latonaio/sap-api-integrations-purchase-scheduling-agreement-reads/blob/main/SAP_API_Caller/responses/item.go)
 * ToHeaderPartner / [to_header_partner](https://github.com/latonaio/sap-api-integrations-purchase-scheduling-agreement-reads/blob/main/SAP_API_Caller/responses/to_header_partner.go)
@@ -208,36 +269,43 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToItemScheduleLine / [to_item_schedule_line.go](https://github.com/latonaio/sap-api-integrations-purchase-scheduling-agreement-reads/blob/main/SAP_API_Caller/responses/to_item_schedule_line.go)
 
 ### Supplier Invoice ###
+
 * A_SupplierInvoice / [header.go](https://github.com/latonaio/sap-api-integrations-supplier-invoice-reads/blob/main/SAP_API_Caller/responses/header.go)
 * A_SupplierInvoice(SupplierInvoice='{SupplierInvoice}',FiscalYear='{FiscalYear}')/to_SupplierInvoiceItemGLAcct / [tax.go](https://github.com/latonaio/sap-api-integrations-supplier-invoice-reads/blob/main/SAP_API_Caller/responses/tax.go)
 * A_SuplrInvcItemPurOrdRef / [purchase_order.go](https://github.com/latonaio/sap-api-integrations-supplier-invoice-reads/blob/main/SAP_API_Caller/responses/purchase_order.go)
 * A_SuplrInvcItemAcctAssgmt / [account.go](https://github.com/latonaio/sap-api-integrations-supplier-invoice-reads/blob/main/SAP_API_Caller/responses/account.go)
 
 ### Bill Of Material ###
+
 * MaterialBOM / [header.go](https://github.com/latonaio/sap-api-integrations-bill-of-material-reads/blob/main/SAP_API_Caller/responses/header.go)
 * MaterialBOMItem / [item.go](https://github.com/latonaio/sap-api-integrations-bill-of-material-reads/blob/main/SAP_API_Caller/responses/item.go)
 * ToItem / [to_item.go](https://github.com/latonaio/sap-api-integrations-bill-of-material-reads/blob/main/SAP_API_Caller/responses/to_item.go)
 
 ### Work Center ###
+
 * WorkCenterCapacity(WorkCenterInternalID='{WorkCenterInternalID}',WorkCenterTypeCode='{WorkCenterTypeCode}',CapacityCategoryAllocation='{CapacityCategoryAllocation}',CapacityInternalID='{CapacityInternalID}')/_Header / [work_center.go](https://github.com/latonaio/sap-api-integrations-work-center-reads/blob/main/SAP_API_Caller/responses/work_center.go)
 
 ### Production Routing ###
+
 * ProductionRoutingHeader / [header.go](https://github.com/latonaio/sap-api-integrations-production-routing-reads/blob/main/SAP_API_Caller/responses/header.go)
 * ProductionRoutingMatlAssgmt / [material_assignment.go](https://github.com/latonaio/sap-api-integrations-production-routing-reads/blob/main/SAP_API_Caller/responses/material_assignment.go)
-* ToMatlAssgmt / [to_matl_assgmt.go](https://github.com/latonaio/sap-api-integrations-production-routing-reads/blob/main/SAP_API_Caller/responses/to_matl_assgmt.go)
+* ToMaterialAssignment / [to_material_assignment.go](https://github.com/latonaio/sap-api-integrations-production-routing-reads/blob/main/SAP_API_Caller/responses/to_material_assignment.go)
 * ToOperation / [to_operation.go](https://github.com/latonaio/sap-api-integrations-production-routing-reads/blob/main/SAP_API_Caller/responses/to_operation.go)
 * ToSequence / [to_sequence.go](https://github.com/latonaio/sap-api-integrations-production-routing-reads/blob/main/SAP_API_Caller/responses/to_sequence.go)
 * ToComponentAllocation / [to_component_allocation.go](https://github.com/latonaio/sap-api-integrations-production-routing-reads/blob/main/SAP_API_Caller/responses/to_component_allocation.go)
 
 ### Planned Independent Requirement ###
+
 * PlannedIndepRqmt / [header.go](https://github.com/latonaio/sap-api-integrations-planned-independent-requirement-reads/blob/main/SAP_API_Caller/responses/header.go)
 * ToItem / [to_item.go](https://github.com/latonaio/sap-api-integrations-planned-independent-requirement-reads/blob/main/SAP_API_Caller/responses/to_item.go)
 
 ### Planned Order ###
+
 * PlannedOrderHeader / [header.go](https://github.com/latonaio/sap-api-integrations-planned-order-reads/blob/main/SAP_API_Caller/responses/header.go)
 * PlannedOrderComponent / [component.go](https://github.com/latonaio/sap-api-integrations-planned-order-reads/blob/main/SAP_API_Caller/responses/component.go)
 
 ### Production Order ###
+
 * A_ProductionOrder_2 / [general.go](https://github.com/latonaio/sap-api-integrations-production-order-reads/blob/main/SAP_API_Caller/responses/general.go)
 * ToProductionOrderStatus / [to_production_order_status.go](https://github.com/latonaio/sap-api-integrations-production-order-reads/blob/main/SAP_API_Caller/responses/to_production_order_status.go)
 * ToProductionOrderComponent / [to_production_order_component.go](https://github.com/latonaio/sap-api-integrations-production-order-reads/blob/main/SAP_API_Caller/responses/to_production_order_component.go)
@@ -245,8 +313,64 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToProductionOrderItem / [to_production_order_item.go](https://github.com/latonaio/sap-api-integrations-production-order-reads/blob/main/SAP_API_Caller/responses/to_production_order_item.go)
 
 ### Production Order Confirmation ###
+
 * ProdnOrdConf2 / [confirmation.go](https://github.com/latonaio/sap-api-integrations-production-order-confirmation-reads/blob/main/SAP_API_Caller/responses/confirmation.go)
 * ProdnOrdConfMatlDocItm / [material_movements.go](https://github.com/latonaio/sap-api-integrations-production-order-confirmation-reads/blob/main/SAP_API_Caller/responses/material_movements.go)
 * ProdnOrderConfBatchCharc / [batch_characteristic.go](https://github.com/latonaio/sap-api-integrations-production-order-confirmation-reads/blob/main/SAP_API_Caller/responses/batch_characteristic.go)
 * ToMaterialMovements / [to_material_movements.go](https://github.com/latonaio/sap-api-integrations-production-order-confirmation-reads/blob/main/SAP_API_Caller/responses/to_material_movements.go)
 * ToBatchCharacteristic / [to_batch_characteristic.go](https://github.com/latonaio/sap-api-integrations-production-order-confirmation-reads/blob/main/SAP_API_Caller/responses/to_batch_characteristic.go)
+
+## Plant Management ##
+
+### Equipment Master ###
+
+* Equipment / [equipment.go](https://github.com/latonaio/sap-api-integrations-equipment-master-reads/blob/main/SAP_API_Caller/responses/equipment.go)
+* ToPartner / [to_partner.go](https://github.com/latonaio/sap-api-integrations-equipment-master-reads/blob/main/SAP_API_Caller/responses/to_partner.go)
+
+### Maintenance Plan ###
+
+* MaintenancePlan / [header.go](https://github.com/latonaio/sap-api-integrations-maintenance-plan-reads/blob/main/SAP_API_Caller/responses/header.go)
+* ToStrategyCycle / [to_strategy_cycle.go](https://github.com/latonaio/sap-api-integrations-maintenance-plan-reads/blob/main/SAP_API_Caller/responses/to_strategy_cycle.go)
+* ToMaintenanceCycle / [to_maintenance_cycle.go](https://github.com/latonaio/sap-api-integrations-maintenance-plan-reads/blob/main/SAP_API_Caller/responses/to_maintenance_cycle.go)
+* ToItem / [to_item.go](https://github.com/latonaio/sap-api-integrations-maintenance-plan-reads/blob/main/SAP_API_Caller/responses/to_item.go)
+* ToCallObjects / [to_call_objects.go](https://github.com/latonaio/sap-api-integrations-maintenance-plan-reads/blob/main/SAP_API_Caller/responses/to_call_objects.go)
+
+### Maintenance Item ###
+
+* MaintenanceItem / [item.go](https://github.com/latonaio/sap-api-integrations-maintenance-item-reads/blob/main/SAP_API_Caller/responses/item.go)
+* ToCallObjects / [to_call_objects.go](https://github.com/latonaio/sap-api-integrations-maintenance-item-reads/blob/main/SAP_API_Caller/responses/to_call_objects.go)
+
+### Maintenance Order ###
+
+* MaintenanceOrder / [header.go](https://github.com/latonaio/sap-api-integrations-maintenance-order-reads/blob/main/SAP_API_Caller/responses/header.go)
+* ToOperation / [to_operation.go](https://github.com/latonaio/sap-api-integrations-maintenance-order-reads/blob/main/SAP_API_Caller/responses/to_operation.go)
+* ToOperationComponent / [to_operation_component.go](https://github.com/latonaio/sap-api-integrations-maintenance-order-reads/blob/main/SAP_API_Caller/responses/to_operation_component.go)
+* ToObjectListItem / [to_object_list_item.go](https://github.com/latonaio/sap-api-integrations-maintenance-order-reads/blob/main/SAP_API_Caller/responses/to_object_list_item.go)
+
+### Maintenance Order Confirmation ###
+
+* MaintOrderConfirmation / [header.go](https://github.com/latonaio/sap-api-integrations-maintenance-order-confirmation-reads/blob/main/SAP_API_Caller/responses/header.go)
+
+### Maintenance Notification ###
+
+* MaintenanceNotification / [header.go](https://github.com/latonaio/sap-api-integrations-maintenance-notification-reads/blob/main/SAP_API_Caller/responses/header.go)
+* ToItem / [to_item.go](https://github.com/latonaio/sap-api-integrations-maintenance-notification-reads/blob/main/SAP_API_Caller/responses/to_item.go)
+* ToItemCause / [to_item_cause.go](https://github.com/latonaio/sap-api-integrations-maintenance-notification-reads/blob/main/SAP_API_Caller/responses/to_item_cause.go)
+
+## Customer Service ##
+
+### Service Order ###
+* A_ServiceOrder / [header.go](https://github.com/latonaio/sap-api-integrations-service-order-reads/blob/main/SAP_API_Caller/responses/header.go)
+* A_ServiceOrderItem / [item.go](https://github.com/latonaio/sap-api-integrations-service-order-reads/blob/main/SAP_API_Caller/responses/item.go)
+* ToHeaderPersonResponsible / [to_header_person_responsible.go](https://github.com/latonaio/sap-api-integrations-service-order-reads/blob/main/SAP_API_Caller/responses/to_header_person_responsible.go)
+* ToHeaderReferenceObject/ [to_header_reference_object.go](https://github.com/latonaio/sap-api-integrations-service-order-reads/blob/main/SAP_API_Caller/responses/to_header_reference_object.go)
+* ToHeaderConfirmation / [to_header_confirmation.go](https://github.com/latonaio/sap-api-integrations-service-order-reads/blob/main/SAP_API_Caller/responses/to_header_confirmation.go)
+* ToItem / [to_item.go](https://github.com/latonaio/sap-api-integrations-service-order-reads/blob/main/SAP_API_Caller/responses/to_item.go)
+* ToItemPricingElement / [to_item_pricing_element.go](https://github.com/latonaio/sap-api-integrations-service-order-reads/blob/main/SAP_API_Caller/responses/to_item_pricing_element.go)
+
+### Service Order ###
+* A_ServiceConfirmation / [header.go](https://github.com/latonaio/sap-api-integrations-service-confirmation-reads/blob/main/SAP_API_Caller/responses/header.go)
+* ToPersonResponsible / [to_person_responsible.go](https://github.com/latonaio/sap-api-integrations-service-confirmation-reads/blob/main/SAP_API_Caller/responses/to_person_responsible.go)
+* ToReferenceObject / [to_reference_object.go](https://github.com/latonaio/sap-api-integrations-service-confirmation-reads/blob/main/SAP_API_Caller/responses/to_reference_object.go)
+* ToItem / [to_item.go](https://github.com/latonaio/sap-api-integrations-service-confirmation-reads/blob/main/SAP_API_Caller/responses/to_item.go)
+* ToItemPricingElement / [to_item_pricing_element.go](https://github.com/latonaio/sap-api-integrations-service-confirmation-reads/blob/main/SAP_API_Caller/responses/to_item_pricing_element.go)
