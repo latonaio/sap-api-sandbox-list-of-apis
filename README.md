@@ -227,6 +227,7 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToMatlAssgmt / [to_matl_assgmt.go](https://github.com/latonaio/sap-api-integrations-production-routing-reads/blob/main/SAP_API_Caller/responses/to_matl_assgmt.go)
 * ToOperation / [to_operation.go](https://github.com/latonaio/sap-api-integrations-production-routing-reads/blob/main/SAP_API_Caller/responses/to_operation.go)
 * ToSequence / [to_sequence.go](https://github.com/latonaio/sap-api-integrations-production-routing-reads/blob/main/SAP_API_Caller/responses/to_sequence.go)
+* ToComponentAllocation / [to_component_allocation.go](https://github.com/latonaio/sap-api-integrations-production-routing-reads/blob/main/SAP_API_Caller/responses/to_component_allocation.go)
 
 ### Planned Independent Requirement ###
 * PlannedIndepRqmt / [header.go](https://github.com/latonaio/sap-api-integrations-planned-independent-requirement-reads/blob/main/SAP_API_Caller/responses/header.go)
@@ -242,3 +243,10 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToProductionOrderComponent / [to_production_order_component.go](https://github.com/latonaio/sap-api-integrations-production-order-reads/blob/main/SAP_API_Caller/responses/to_production_order_component.go)
 * ToProductionOrderOperation / [to_production_order_operation.go](https://github.com/latonaio/sap-api-integrations-production-order-reads/blob/main/SAP_API_Caller/responses/to_production_order_operation.go)
 * ToProductionOrderItem / [to_production_order_item.go](https://github.com/latonaio/sap-api-integrations-production-order-reads/blob/main/SAP_API_Caller/responses/to_production_order_item.go)
+
+### Production Order Confirmation ###
+* ProdnOrdConf2 / [confirmation.go](https://github.com/latonaio/sap-api-integrations-production-order-confirmation-reads/blob/main/SAP_API_Caller/responses/confirmation.go)
+* ProdnOrdConfMatlDocItm / [material_movements.go](https://github.com/latonaio/sap-api-integrations-production-order-confirmation-reads/blob/main/SAP_API_Caller/responses/material_movements.go)
+* ProdnOrderConfBatchCharc / [batch_characteristic.go](https://github.com/latonaio/sap-api-integrations-production-order-confirmation-reads/blob/main/SAP_API_Caller/responses/batch_characteristic.go)
+* ToMaterialMovements / [to_material_movements.go](https://github.com/latonaio/sap-api-integrations-production-order-confirmation-reads/blob/main/SAP_API_Caller/responses/to_material_movements.go)
+* ToBatchCharacteristic / [to_batch_characteristic.go](https://github.com/latonaio/sap-api-integrations-production-order-confirmation-reads/blob/main/SAP_API_Caller/responses/to_batch_characteristic.go)
