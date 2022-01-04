@@ -229,7 +229,7 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToPurInfoRecdPrcgCndnValidity / [to_pur_info_recd_prcg_cndn_validity.go](https://github.com/latonaio/sap-api-integrations-purchasing-info-record-reads/blob/main/SAP_API_Caller/responses/to_pur_info_recd_prcg_cndn_validity.go)
 * to_pur_info_recd_prcg_cndn_validity / [to_pur_info_recd_prcg_cndn.go](https://github.com/latonaio/sap-api-integrations-purchasing-info-record-reads/blob/main/SAP_API_Caller/responses/to_pur_info_recd_prcg_cndn.go)
 
-### Purchasing Requisition ###
+### Purchase Requisition ###
 
 * A_PurchaseRequisitionHeader / [header.go](https://github.com/latonaio/sap-api-integrations-purchase-requisition-reads/blob/main/SAP_API_Caller/responses/header.go)
 * A_PurchaseRequisitionItem / [item.go](https://github.com/latonaio/sap-api-integrations-purchase-requisition-reads/blob/main/SAP_API_Caller/responses/item.go)
@@ -307,10 +307,10 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 ### Production Order ###
 
 * A_ProductionOrder_2 / [general.go](https://github.com/latonaio/sap-api-integrations-production-order-reads/blob/main/SAP_API_Caller/responses/general.go)
-* ToProductionOrderStatus / [to_production_order_status.go](https://github.com/latonaio/sap-api-integrations-production-order-reads/blob/main/SAP_API_Caller/responses/to_production_order_status.go)
-* ToProductionOrderComponent / [to_production_order_component.go](https://github.com/latonaio/sap-api-integrations-production-order-reads/blob/main/SAP_API_Caller/responses/to_production_order_component.go)
-* ToProductionOrderOperation / [to_production_order_operation.go](https://github.com/latonaio/sap-api-integrations-production-order-reads/blob/main/SAP_API_Caller/responses/to_production_order_operation.go)
-* ToProductionOrderItem / [to_production_order_item.go](https://github.com/latonaio/sap-api-integrations-production-order-reads/blob/main/SAP_API_Caller/responses/to_production_order_item.go)
+* ToStatus / [to_status.go](https://github.com/latonaio/sap-api-integrations-production-order-reads/blob/main/SAP_API_Caller/responses/to_status.go)
+* ToComponent / [to_component.go](https://github.com/latonaio/sap-api-integrations-production-order-reads/blob/main/SAP_API_Caller/responses/to_component.go)
+* ToOperation / [to_operation.go](https://github.com/latonaio/sap-api-integrations-production-order-reads/blob/main/SAP_API_Caller/responses/to_operation.go)
+* ToItem / [to_item.go](https://github.com/latonaio/sap-api-integrations-production-order-reads/blob/main/SAP_API_Caller/responses/to_item.go)
 
 ### Production Order Confirmation ###
 
