@@ -196,8 +196,13 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 ### Billing Document ###
 
 * A_BillingDocument / [header.go](https://github.com/latonaio/sap-api-integrations-billing-document-reads/blob/main/SAP_API_Caller/responses/header.go)
+* A_BillingDocumentPartner / [header_partner.go](https://github.com/latonaio/sap-api-integrations-billing-document-reads/blob/main/SAP_API_Caller/responses/header_partner.go)
 * A_BillingDocumentItem / [item.go](https://github.com/latonaio/sap-api-integrations-billing-document-reads/blob/main/SAP_API_Caller/responses/item.go)
-* A_BillingDocument('{BillingDocument}')/to_Partner / [partner_function.go](https://github.com/latonaio/sap-api-integrations-billing-document-reads/blob/main/SAP_API_Caller/responses/partner_function.go)
+* A_BillingDocumentItemPartner / [item_partner.go](https://github.com/latonaio/sap-api-integrations-billing-document-reads/blob/main/SAP_API_Caller/responses/item_partner.go)
+* ToHeaderPartner / [to_header_partner.go](https://github.com/latonaio/sap-api-integrations-billing-document-reads/blob/main/SAP_API_Caller/responses/to_header_partner.go)
+* ToItem / [to_item.go](https://github.com/latonaio/sap-api-integrations-billing-document-reads/blob/main/SAP_API_Caller/responses/to_item.go)
+* ToItemPartner / [to_item_partner.go](https://github.com/latonaio/sap-api-integrations-billing-document-reads/blob/main/SAP_API_Caller/responses/to_item_partner.go)
+* ToItemPricingElement / [to_item_pricing_element.go](https://github.com/latonaio/sap-api-integrations-billing-document-reads/blob/main/SAP_API_Caller/responses/to_item_pricing_element.go)
 
 ## Procurement Management ##
 
@@ -339,6 +344,14 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 
 * MaintenanceItem / [item.go](https://github.com/latonaio/sap-api-integrations-maintenance-item-reads/blob/main/SAP_API_Caller/responses/item.go)
 * ToCallObjects / [to_call_objects.go](https://github.com/latonaio/sap-api-integrations-maintenance-item-reads/blob/main/SAP_API_Caller/responses/to_call_objects.go)
+
+### Measuring Point ###
+
+* MeasuringPointHeader / [header.go](https://github.com/latonaio/sap-api-integrations-measuring-point-reads/blob/main/SAP_API_Caller/responses/header.go)
+
+### Measurement Document ###
+
+* MeasurementDocumentHeader / [header.go](https://github.com/latonaio/sap-api-integrations-measurement-document-reads/blob/main/SAP_API_Caller/responses/header.go)
 
 ### Maintenance Order ###
 
