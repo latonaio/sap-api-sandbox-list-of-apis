@@ -368,6 +368,10 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 
 * MaintOrderConfirmation / [header.go](https://github.com/latonaio/sap-api-integrations-maintenance-order-confirmation-reads/blob/main/SAP_API_Caller/responses/header.go)
 
+### Defect ###
+
+* DefectHeader / [header.go](https://github.com/latonaio/sap-api-integrations-defect-reads/blob/main/SAP_API_Caller/responses/header.go)
+
 ### Measuring Point ###
 
 * MeasuringPointHeader / [header.go](https://github.com/latonaio/sap-api-integrations-measuring-point-reads/blob/main/SAP_API_Caller/responses/header.go)
