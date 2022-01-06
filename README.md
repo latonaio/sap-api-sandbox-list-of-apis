@@ -331,12 +331,18 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 
 ### Functional Location ###
 
-* FunctionalLocationHeader / [header.go](https://github.com/latonaio/sap-api-integrations-functional-location-reads/blob/main/SAP_API_Caller/responses/header.go)
+* FunctionalLocation / [header.go](https://github.com/latonaio/sap-api-integrations-functional-location-reads/blob/main/SAP_API_Caller/responses/header.go)
 
 ### Equipment Master ###
 
 * Equipment / [equipment.go](https://github.com/latonaio/sap-api-integrations-equipment-master-reads/blob/main/SAP_API_Caller/responses/equipment.go)
 * ToPartner / [to_partner.go](https://github.com/latonaio/sap-api-integrations-equipment-master-reads/blob/main/SAP_API_Caller/responses/to_partner.go)
+
+### Maintenance Bill Of Material ###
+
+* BOMHeader / [header.go](https://github.com/latonaio/sap-api-integrations-maintenance-bill-of-material-reads/blob/main/SAP_API_Caller/responses/header.go)
+* BOMItem / [item.go](https://github.com/latonaio/sap-api-integrations-maintenance-bill-of-material-reads/blob/main/SAP_API_Caller/responses/item.go)
+* ToItem / [to_item.go](https://github.com/latonaio/sap-api-integrations-maintenance-bill-of-material-reads/blob/main/SAP_API_Caller/responses/item.go)
 
 ### Maintenance Plan ###
 
@@ -370,15 +376,15 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 
 ### Defect ###
 
-* DefectHeader / [header.go](https://github.com/latonaio/sap-api-integrations-defect-reads/blob/main/SAP_API_Caller/responses/header.go)
+* A_Defect / [header.go](https://github.com/latonaio/sap-api-integrations-defect-reads/blob/main/SAP_API_Caller/responses/header.go)
 
 ### Measuring Point ###
 
-* MeasuringPointHeader / [header.go](https://github.com/latonaio/sap-api-integrations-measuring-point-reads/blob/main/SAP_API_Caller/responses/header.go)
+* MeasuringPoint / [header.go](https://github.com/latonaio/sap-api-integrations-measuring-point-reads/blob/main/SAP_API_Caller/responses/header.go)
 
 ### Measurement Document ###
 
-* MeasurementDocumentHeader / [header.go](https://github.com/latonaio/sap-api-integrations-measurement-document-reads/blob/main/SAP_API_Caller/responses/header.go)
+* MeasurementDocument / [header.go](https://github.com/latonaio/sap-api-integrations-measurement-document-reads/blob/main/SAP_API_Caller/responses/header.go)
 
 
 
