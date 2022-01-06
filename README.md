@@ -327,6 +327,10 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 
 ## Plant Maintenance ##
 
+### Functional Location ###
+
+* FunctionalLocationHeader / [header.go](https://github.com/latonaio/sap-api-integrations-functional-location-reads/blob/main/SAP_API_Caller/responses/header.go)
+
 ### Equipment Master ###
 
 * Equipment / [equipment.go](https://github.com/latonaio/sap-api-integrations-equipment-master-reads/blob/main/SAP_API_Caller/responses/equipment.go)
