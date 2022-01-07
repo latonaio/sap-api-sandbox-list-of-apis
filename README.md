@@ -288,6 +288,10 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * MaterialBOMItem / [item.go](https://github.com/latonaio/sap-api-integrations-bill-of-material-reads/blob/main/SAP_API_Caller/responses/item.go)
 * ToItem / [to_item.go](https://github.com/latonaio/sap-api-integrations-bill-of-material-reads/blob/main/SAP_API_Caller/responses/to_item.go)
 
+### Bill Of Material Where Used List ###
+
+* A_BOMWhereUsed / [where_used_list.go](https://github.com/latonaio/sap-api-integrations-bill-of-material-where-used-list-reads/blob/main/SAP_API_Caller/responses/where_used_list.go)
+
 ### Work Center ###
 
 * WorkCenterCapacity(WorkCenterInternalID='{WorkCenterInternalID}',WorkCenterTypeCode='{WorkCenterTypeCode}',CapacityCategoryAllocation='{CapacityCategoryAllocation}',CapacityInternalID='{CapacityInternalID}')/_Header / [work_center.go](https://github.com/latonaio/sap-api-integrations-work-center-reads/blob/main/SAP_API_Caller/responses/work_center.go)
@@ -385,8 +389,6 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 ### Measurement Document ###
 
 * MeasurementDocument / [header.go](https://github.com/latonaio/sap-api-integrations-measurement-document-reads/blob/main/SAP_API_Caller/responses/header.go)
-
-
 
 
 ## Customer Service ##
