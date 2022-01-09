@@ -206,6 +206,22 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToItemPartner / [to_item_partner.go](https://github.com/latonaio/sap-api-integrations-billing-document-reads/blob/main/SAP_API_Caller/responses/to_item_partner.go)
 * ToItemPricingElement / [to_item_pricing_element.go](https://github.com/latonaio/sap-api-integrations-billing-document-reads/blob/main/SAP_API_Caller/responses/to_item_pricing_element.go)
 
+### Credit Memo Request ###
+
+* A_CreditMemoRequest / [header.go](https://github.com/latonaio/sap-api-integrations-credit-memo-request-reads/blob/main/SAP_API_Caller/responses/header.go)
+* A_CreditMemoRequestItem / [item.go](https://github.com/latonaio/sap-api-integrations-credit-memo-request-reads/blob/main/SAP_API_Caller/responses/item.go)
+* ToHeaderPartner / [to_header_partner.go](https://github.com/latonaio/sap-api-integrations-credit-memo-request-reads/blob/main/SAP_API_Caller/responses/to_header_partner.go)
+* ToItem / [to_item.go](https://github.com/latonaio/sap-api-integrations-credit-memo-request-reads/blob/main/SAP_API_Caller/responses/to_item.go)
+* ToItemPricingElement / [to_item_pricing_element.go](https://github.com/latonaio/sap-api-integrations-credit-memo-request-reads/blob/main/SAP_API_Caller/responses/to_item_pricing_element.go)
+
+### Debit Memo Request ###
+
+* A_DebitMemoRequest / [header.go](https://github.com/latonaio/sap-api-integrations-debit-memo-request-reads/blob/main/SAP_API_Caller/responses/header.go)
+* A_DebitMemoRequestItem / [item.go](https://github.com/latonaio/sap-api-integrations-debit-memo-request-reads/blob/main/SAP_API_Caller/responses/item.go)
+* ToHeaderPartner / [to_header_partner.go](https://github.com/latonaio/sap-api-integrations-debit-memo-request-reads/blob/main/SAP_API_Caller/responses/to_header_partner.go)
+* ToItem / [to_item.go](https://github.com/latonaio/sap-api-integrations-debit-memo-request-reads/blob/main/SAP_API_Caller/responses/to_item.go)
+* ToItemPricingElement / [to_item_pricing_element.go](https://github.com/latonaio/sap-api-integrations-debit-memo-request-reads/blob/main/SAP_API_Caller/responses/to_item_pricing_element.go)
+
 ## Procurement Management ##
 
 ### Supplier Master ###
@@ -387,6 +403,14 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 ### Measuring Point ###
 
 * MeasuringPoint / [header.go](https://github.com/latonaio/sap-api-integrations-measuring-point-reads/blob/main/SAP_API_Caller/responses/header.go)
+
+
+### Maintenance Task List ###
+
+* MaintenanceTaskList / [header.go](https://github.com/latonaio/sap-api-integrations-maintenance-task-list-reads/blob/main/SAP_API_Caller/responses/header.go)
+* MaintenanceTaskListStrtgyPckg / [strategy_package.go](https://github.com/latonaio/sap-api-integrations-maintenance-task-list-reads/blob/main/SAP_API_Caller/responses/strategy_package.go)
+* MaintenanceTaskListOperation / [operation.go](https://github.com/latonaio/sap-api-integrations-maintenance-task-list-reads/blob/main/SAP_API_Caller/responses/operation.go)
+* MaintenanceTaskListOpMat / [operation_material.go](https://github.com/latonaio/sap-api-integrations-maintenance-task-list-reads/blob/main/SAP_API_Caller/responses/operation_material.go)
 
 ### Measurement Document ###
 
