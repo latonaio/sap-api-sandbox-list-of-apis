@@ -349,6 +349,14 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToMaterialMovements / [to_material_movements.go](https://github.com/latonaio/sap-api-integrations-production-order-confirmation-reads/blob/main/SAP_API_Caller/responses/to_material_movements.go)
 * ToBatchCharacteristic / [to_batch_characteristic.go](https://github.com/latonaio/sap-api-integrations-production-order-confirmation-reads/blob/main/SAP_API_Caller/responses/to_batch_characteristic.go)
 
+## Quality Management ##
+
+### Inspection Plan ###
+
+* A_InspectionPlan / [header.go](https://github.com/latonaio/sap-api-integrations-inspection-plan-reads/blob/main/SAP_API_Caller/responses/header.go)
+* A_InspPlanMaterialAssgmt / [material_assignment.go](https://github.com/latonaio/sap-api-integrations-inspection-plan-reads/blob/main/SAP_API_Caller/responses/material_assignment.go)
+* A_InspPlanOpCharacteristic / [operation.go](https://github.com/latonaio/sap-api-integrations-inspection-plan-reads/blob/main/SAP_API_Caller/responses/operation.go)
+
 ## Plant Maintenance ##
 
 ### Functional Location ###
