@@ -434,3 +434,18 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToReferenceObject / [to_reference_object.go](https://github.com/latonaio/sap-api-integrations-service-confirmation-reads/blob/main/SAP_API_Caller/responses/to_reference_object.go)
 * ToItem / [to_item.go](https://github.com/latonaio/sap-api-integrations-service-confirmation-reads/blob/main/SAP_API_Caller/responses/to_item.go)
 * ToItemPricingElement / [to_item_pricing_element.go](https://github.com/latonaio/sap-api-integrations-service-confirmation-reads/blob/main/SAP_API_Caller/responses/to_item_pricing_element.go)
+
+# CREATES の List of APIs  
+
+## Logistics ##
+### Product Master ###
+* A_Product / [general.go](https://github.com/latonaio/sap-api-integrations-product-master-creates/blob/main/SAP_API_Caller/requests/general.go)
+* A_ProductPlant / [plant.go](https://github.com/latonaio/sap-api-integrations-product-master-creates/blob/main/SAP_API_Caller/requests/plant.go)
+* A_ProductPlantMRPArea / [mrp_area.go](https://github.com/latonaio/sap-api-integrations-product-master-creates/blob/main/SAP_API_Caller/requests/mrp_area.go)
+* A_ProductPlantProcurement / [procurement.go](https://github.com/latonaio/sap-api-integrations-product-master-creates/blob/main/SAP_API_Caller/requests/procurement.go)
+* A_ProductWorkScheduling / [work_scheduling.go](https://github.com/latonaio/sap-api-integrations-product-master-creates/blob/main/SAP_API_Caller/requests/work_scheduling.go)
+* A_ProductPlantSales / [sales_plant.go](https://github.com/latonaio/sap-api-integrations-product-master-creates/blob/main/SAP_API_Caller/requests/sales_plant.go)
+* A_ProductValuationAccount / [accounting.go](https://github.com/latonaio/sap-api-integrations-product-master-creates/blob/main/SAP_API_Caller/requests/accounting.go)
+* A_ProductSalesDelivery / [sales_organization.go](https://github.com/latonaio/sap-api-integrations-product-master-creates/blob/main/SAP_API_Caller/requests/sales_organization.go)
+* A_ProductPlantQualityMgmt / [quality.go](https://github.com/latonaio/sap-api-integrations-product-master-creates/blob/main/SAP_API_Caller/requests/quality.go)
+* A_ProductDescription / [product_desc.go](https://github.com/latonaio/sap-api-integrations-product-master-creates/blob/main/SAP_API_Caller/requests/product_desc.go)
