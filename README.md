@@ -352,13 +352,21 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 
 ## Process Management ##
 
-### Process Order ###
+### Master Recipe ###
 
 * MasterRecipeHeader / [header.go](https://github.com/latonaio/sap-api-integrations-master-recipe-reads/blob/main/SAP_API_Caller/responses/header.go)
 * ToMaterialAssignment / [to_material_assignment.go](https://github.com/latonaio/sap-api-integrations-master-recipe-reads/blob/main/SAP_API_Caller/responses/to_material_assignment.go)
 * ToOperation / [to_operation.go](https://github.com/latonaio/sap-api-integrations-master-recipe-reads/blob/main/SAP_API_Caller/responses/to_operation.go)
 * ToPhase / [to_phase.go](https://github.com/latonaio/sap-api-integrations-master-recipe-reads/blob/main/SAP_API_Caller/responses/to_phase.go)
 * ToPhaseRelationship.go / [to_phase_relationship.go](https://github.com/latonaio/sap-api-integrations-master-recipe-reads/blob/main/SAP_API_Caller/responses/to_phase_relationship.go)
+
+### Process Order ###
+
+* A_ProcessOrder_2 / [genetal.go](https://github.com/latonaio/sap-api-integrations-process-order-reads/blob/main/SAP_API_Caller/responses/general.go)
+* ToProcessOrderComponent / [to_component.go](https://github.com/latonaio/sap-api-integrations-process-order-reads/blob/main/SAP_API_Caller/responses/to_component.go)
+* ToProcessOrderItem /  / [to_item.go](https://github.com/latonaio/sap-api-integrations-process-order-reads/blob/main/SAP_API_Caller/responses/to_item.go)
+* ToProcessOrderOperation / [to_operation.go](https://github.com/latonaio/sap-api-integrations-process-order-reads/blob/main/SAP_API_Caller/responses/to_operation.go)
+* ToProcessOrderStatus / [to_status.go](https://github.com/latonaio/sap-api-integrations-process-order-reads/blob/main/SAP_API_Caller/responses/to_status.go)
 
 ## Quality Management ##
 
