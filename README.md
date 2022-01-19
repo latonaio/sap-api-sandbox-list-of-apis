@@ -349,6 +349,16 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToMaterialMovements / [to_material_movements.go](https://github.com/latonaio/sap-api-integrations-production-order-confirmation-reads/blob/main/SAP_API_Caller/responses/to_material_movements.go)
 * ToBatchCharacteristic / [to_batch_characteristic.go](https://github.com/latonaio/sap-api-integrations-production-order-confirmation-reads/blob/main/SAP_API_Caller/responses/to_batch_characteristic.go)
 
+## Process Management ##
+
+### Process Order ###
+
+* MasterRecipeHeader / [header.go](https://github.com/latonaio/sap-api-integrations-master-recipe-reads/blob/main/SAP_API_Caller/responses/header.go)
+* ToMaterialAssignment / [to_material_assignment.go](https://github.com/latonaio/sap-api-integrations-master-recipe-reads/blob/main/SAP_API_Caller/responses/to_material_assignment.go)
+* ToOperation / [to_operation.go](https://github.com/latonaio/sap-api-integrations-master-recipe-reads/blob/main/SAP_API_Caller/responses/to_operation.go)
+* ToPhase / [to_phase.go](https://github.com/latonaio/sap-api-integrations-master-recipe-reads/blob/main/SAP_API_Caller/responses/to_phase.go)
+* ToPhaseRelationship.go / [to_phase_relationship.go](https://github.com/latonaio/sap-api-integrations-master-recipe-reads/blob/main/SAP_API_Caller/responses/to_phase_relationship.go)
+
 ## Quality Management ##
 
 ### Inspection Plan ###
@@ -428,6 +438,7 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 ## Customer Service ##
 
 ### Service Order ###
+
 * A_ServiceOrder / [header.go](https://github.com/latonaio/sap-api-integrations-service-order-reads/blob/main/SAP_API_Caller/responses/header.go)
 * A_ServiceOrderItem / [item.go](https://github.com/latonaio/sap-api-integrations-service-order-reads/blob/main/SAP_API_Caller/responses/item.go)
 * ToHeaderPersonResponsible / [to_header_person_responsible.go](https://github.com/latonaio/sap-api-integrations-service-order-reads/blob/main/SAP_API_Caller/responses/to_header_person_responsible.go)
@@ -437,6 +448,7 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToItemPricingElement / [to_item_pricing_element.go](https://github.com/latonaio/sap-api-integrations-service-order-reads/blob/main/SAP_API_Caller/responses/to_item_pricing_element.go)
 
 ### Service Order ###
+
 * A_ServiceConfirmation / [header.go](https://github.com/latonaio/sap-api-integrations-service-confirmation-reads/blob/main/SAP_API_Caller/responses/header.go)
 * ToPersonResponsible / [to_person_responsible.go](https://github.com/latonaio/sap-api-integrations-service-confirmation-reads/blob/main/SAP_API_Caller/responses/to_person_responsible.go)
 * ToReferenceObject / [to_reference_object.go](https://github.com/latonaio/sap-api-integrations-service-confirmation-reads/blob/main/SAP_API_Caller/responses/to_reference_object.go)
@@ -446,7 +458,9 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 # CREATES の List of APIs  
 
 ## Logistics ##
+
 ### Product Master ###
+
 * A_Product / [general.go](https://github.com/latonaio/sap-api-integrations-product-master-creates/blob/main/SAP_API_Caller/requests/general.go)
 * A_ProductPlant / [plant.go](https://github.com/latonaio/sap-api-integrations-product-master-creates/blob/main/SAP_API_Caller/requests/plant.go)
 * A_ProductPlantMRPArea / [mrp_area.go](https://github.com/latonaio/sap-api-integrations-product-master-creates/blob/main/SAP_API_Caller/requests/mrp_area.go)
