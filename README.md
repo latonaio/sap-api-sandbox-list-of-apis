@@ -63,6 +63,7 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * A_ProductValuationAccount / [accounting.go](https://github.com/latonaio/sap-api-integrations-product-master-reads/blob/main/SAP_API_Caller/responses/accounting.go)
 * A_ProductPlantQualityMgmt / [quality.go](https://github.com/latonaio/sap-api-integrations-product-master-reads/blob/main/SAP_API_Caller/responses/quality.go)
 * A_ProductDescription / [product_desc.go](https://github.com/latonaio/sap-api-integrations-product-master-reads/blob/main/SAP_API_Caller/responses/product_desc.go)
+* A_ProductSalesTax / [sales_tax.go](https://github.com/latonaio/sap-api-integrations-product-master-reads/blob/main/SAP_API_Caller/responses/sales_tax.go)
 * ToProductDesc / [to_product_desc.go](https://github.com/latonaio/sap-api-integrations-product-master-reads/blob/main/SAP_API_Caller/responses/to_product_desc.go)
 
 ### Product Master Class ###
