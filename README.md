@@ -196,6 +196,16 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToItem / [to_item.go](https://github.com/latonaio/sap-api-integrations-outbound-delivery-reads/blob/main/SAP_API_Caller/responses/to_item.go)
 * ToItemDocumentFlow / [to_item_document_flow.go](https://github.com/latonaio/sap-api-integrations-outbound-delivery-reads/blob/main/SAP_API_Caller/responses/to_item_document_flow.go)
 
+### Customer Return ###
+
+* A_CustomerReturn / [header.go](https://github.com/latonaio/sap-api-integrations-customer-return-reads/blob/main/SAP_API_Caller/responses/header.go)
+* A_CustomerReturnItem / [item.go](https://github.com/latonaio/sap-api-integrations-customer-return-reads/blob/main/SAP_API_Caller/responses/item.go)
+* ToHeaderPartner / [to_header_partner.go](https://github.com/latonaio/sap-api-integrations-customer-return-reads/blob/main/SAP_API_Caller/responses/to_header_partner.go)
+* ToItem / [to_item.go](https://github.com/latonaio/sap-api-integrations-customer-return-reads/blob/main/SAP_API_Caller/responses/to_item.go)
+* ToItemPricingElement / [to_item_pricing_element.go](https://github.com/latonaio/sap-api-integrations-customer-return-reads/blob/main/SAP_API_Caller/responses/to_item_pricing_element.go)
+* ToItemProcessStep / [to_item_process_step.go](https://github.com/latonaio/sap-api-integrations-customer-return-reads/blob/main/SAP_API_Caller/responses/to_item_process_step.go)
+* ToItemScheduleLine / [to_item_schedule_line.go](https://github.com/latonaio/sap-api-integrations-customer-return-reads/blob/main/SAP_API_Caller/responses/to_item_schedule_line.go)
+
 ### Billing Document ###
 
 * A_BillingDocument / [header.go](https://github.com/latonaio/sap-api-integrations-billing-document-reads/blob/main/SAP_API_Caller/responses/header.go)
@@ -368,6 +378,10 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * ToProcessOrderOperation / [to_operation.go](https://github.com/latonaio/sap-api-integrations-process-order-reads/blob/main/SAP_API_Caller/responses/to_operation.go)
 * ToProcessOrderStatus / [to_status.go](https://github.com/latonaio/sap-api-integrations-process-order-reads/blob/main/SAP_API_Caller/responses/to_status.go)
 
+### Process Order Confirmation ###
+* ProcOrdConf2 / [confirmation.go](https://github.com/latonaio/sap-api-integrations-process-order-confirmation-reads/blob/main/SAP_API_Caller/responses/confirmation.go)
+* ProcOrdConfMatlDocItm / [material_movements.go](https://github.com/latonaio/sap-api-integrations-process-order-confirmation-reads/blob/main/SAP_API_Caller/responses/material_movements.go)
+
 ## Quality Management ##
 
 ### Inspection Plan ###
@@ -480,3 +494,8 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * A_ProductSalesDelivery / [sales_organization.go](https://github.com/latonaio/sap-api-integrations-product-master-creates/blob/main/SAP_API_Caller/requests/sales_organization.go)
 * A_ProductPlantQualityMgmt / [quality.go](https://github.com/latonaio/sap-api-integrations-product-master-creates/blob/main/SAP_API_Caller/requests/quality.go)
 * A_ProductDescription / [product_desc.go](https://github.com/latonaio/sap-api-integrations-product-master-creates/blob/main/SAP_API_Caller/requests/product_desc.go)
+
+### Sales Order ###
+
+* A_SalesOrder / [header.go](https://github.com/latonaio/sap-api-integrations-sales-order-creates/blob/main/SAP_API_Caller/requests/header.go)
+* A_SalesOrderItem / [item.go](https://github.com/latonaio/sap-api-integrations-sales-order-creates/blob/main/SAP_API_Caller/requests/item.go)
