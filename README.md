@@ -499,3 +499,18 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 
 * A_SalesOrder / [header.go](https://github.com/latonaio/sap-api-integrations-sales-order-creates/blob/main/SAP_API_Caller/requests/header.go)
 * A_SalesOrderItem / [item.go](https://github.com/latonaio/sap-api-integrations-sales-order-creates/blob/main/SAP_API_Caller/requests/item.go)
+
+## Plant Maintenance ##
+### Equipment Master ###
+
+* A_Equipment /[equipment.go](https://github.com/latonaio/sap-api-integrations-equipment-master-creates/blob/main/SAP_API_Caller/requests/equipment.go)
+* A_EquipmenttoPartner /[to_partner.go](https://github.com/latonaio/sap-api-integrations-equipment-master-creates/blob/main/SAP_API_Caller/requests/toPartner.go)
+
+### Maintenance Notification ###
+
+* A_MaintenanceNotification /[header.go](https://github.com/latonaio/sap-api-integrations-maintenance-notification-creates/blob/main/SAP_API_Caller/requests/header.go)
+* A_MaintenanceNotificationItem /[item.go](https://github.com/latonaio/sap-api-integrations-maintenance-notification-creates/blob/main/SAP_API_Caller/requests/item.go)
+
+### Maintenance Order ###
+
+* A_MaintenanceOrder /[header.go](https://github.com/latonaio/sap-api-integrations-maintenance-order-creates/blob/main/SAP_API_Caller/requests/header.go)
