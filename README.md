@@ -501,6 +501,11 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * A_SalesOrderItem / [item.go](https://github.com/latonaio/sap-api-integrations-sales-order-creates/blob/main/SAP_API_Caller/requests/item.go)
 
 ## Plant Maintenance ##
+
+### Functional Location ###
+
+* FunctionalLocation /[header.go](https://github.com/latonaio/sap-api-integrations-functional-location-creates/blob/main/SAP_API_Caller/requests/header.go)
+
 ### Equipment Master ###
 
 * A_Equipment /[equipment.go](https://github.com/latonaio/sap-api-integrations-equipment-master-creates/blob/main/SAP_API_Caller/requests/equipment.go)
@@ -514,3 +519,8 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 ### Maintenance Order ###
 
 * A_MaintenanceOrder /[header.go](https://github.com/latonaio/sap-api-integrations-maintenance-order-creates/blob/main/SAP_API_Caller/requests/header.go)
+
+### Maintenance Order Confirmation ###
+
+* MaintOrderConfirmation /[header.go](https://github.com/latonaio/sap-api-integrations-maintenance-order-confirmation-creates/blob/main/SAP_API_Caller/requests/header.go)
+
