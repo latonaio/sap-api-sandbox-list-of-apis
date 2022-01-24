@@ -390,6 +390,10 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * A_InspPlanMaterialAssgmt / [material_assignment.go](https://github.com/latonaio/sap-api-integrations-inspection-plan-reads/blob/main/SAP_API_Caller/responses/material_assignment.go)
 * A_InspPlanOpCharacteristic / [operation.go](https://github.com/latonaio/sap-api-integrations-inspection-plan-reads/blob/main/SAP_API_Caller/responses/operation.go)
 
+### Quality Info Record ###　　
+
+*　QualityInProcurement　/ [header.go](https://github.com/latonaio/sap-api-integrations-quality-info-record-reads/blob/main/SAP_API_Caller/responses/header.go)
+
 ## Plant Maintenance ##
 
 ### Functional Location ###
