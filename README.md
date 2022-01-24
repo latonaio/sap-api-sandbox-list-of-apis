@@ -499,10 +499,18 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * A_ProductPlantQualityMgmt / [quality.go](https://github.com/latonaio/sap-api-integrations-product-master-creates/blob/main/SAP_API_Caller/requests/quality.go)
 * A_ProductDescription / [product_desc.go](https://github.com/latonaio/sap-api-integrations-product-master-creates/blob/main/SAP_API_Caller/requests/product_desc.go)
 
+## Sales Management ##
 ### Sales Order ###
 
 * A_SalesOrder / [header.go](https://github.com/latonaio/sap-api-integrations-sales-order-creates/blob/main/SAP_API_Caller/requests/header.go)
 * A_SalesOrderItem / [item.go](https://github.com/latonaio/sap-api-integrations-sales-order-creates/blob/main/SAP_API_Caller/requests/item.go)
+
+## Procurement Management ##
+
+### Purchasing Info Record ###
+
+* A_PurchasingInfoRecord / [general.go](https://github.com/latonaio/sap-api-integrations-purchasing-info-record-creates/blob/main/SAP_API_Caller/requests/general.go)
+* A_PurgInfoRecdOrgPlantData / [purchasing_organization_plant.go](https://github.com/latonaio/sap-api-integrations-purchasing-info-record-creates/blob/main/SAP_API_Caller/requests/purchasing_organization_plant.go)
 
 ## Plant Maintenance ##
 
