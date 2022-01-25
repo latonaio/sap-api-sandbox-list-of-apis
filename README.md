@@ -82,7 +82,6 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 ### Material Stock ###
 
 * A_MatlStkInAcctMod / [material_stock.go](https://github.com/latonaio/sap-api-integrations-material-stock-reads/blob/main/SAP_API_Caller/responses/material_stock.go)
-* ToMaterialStock / [to_material_stock.go](https://github.com/latonaio/sap-api-integrations-material-stock-reads/blob/main/SAP_API_Caller/responses/to_material_stock.go)
 
 ### Reservation Document ###
 
