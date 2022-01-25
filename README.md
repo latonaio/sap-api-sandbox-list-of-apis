@@ -511,6 +511,11 @@ sap-sandbox-list-of-apis は、オンプレミス版である（＝クラウド�
 * A_PurchasingInfoRecord / [general.go](https://github.com/latonaio/sap-api-integrations-purchasing-info-record-creates/blob/main/SAP_API_Caller/requests/general.go)
 * A_PurgInfoRecdOrgPlantData / [purchasing_organization_plant.go](https://github.com/latonaio/sap-api-integrations-purchasing-info-record-creates/blob/main/SAP_API_Caller/requests/purchasing_organization_plant.go)
 
+## Production Management ##
+### Production Order ###
+
+ * A_ProductionOrder_2 / [general.go](https://github.com/latonaio/sap-api-integrations-production-order-creates/blob/main/SAP_API_Caller/requests/general.go)
+
 ## Plant Maintenance ##
 
 ### Functional Location ###
